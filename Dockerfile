@@ -21,4 +21,5 @@ RUN apt-get install -y \
 	zip \
 	dosfstools \
 	bsdtar \
+	fakeroot \
   && rm -rf /var/lib/apt/lists/*
