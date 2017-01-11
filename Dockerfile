@@ -9,5 +9,14 @@ RUN apt-get install -y \
 	python3-dev \
 	virtualenv \
 	supervisor \
-	libcap2-bin  \	
+	libcap2-bin  \
+	quilt \
+	qemu-user-static \
+	debootstrap \
+	kpartx \
+	zerofree \
+	pxz \
+	zip \
+	dosfstools \
+	bsdtar \
   && rm -rf /var/lib/apt/lists/*
